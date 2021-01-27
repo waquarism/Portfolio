@@ -1,6 +1,6 @@
 {
-  "short_name": "Portfolio OS Theme",
-  "name": "A portfolio website based in Windows theme.",
+  "short_name": "Windfolio",
+  "name": "A portfolio web app based on Windows 10 theme.",
   "icons": [
     {
       "src": "favicon.ico",
