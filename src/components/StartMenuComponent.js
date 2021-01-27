@@ -25,7 +25,7 @@ function StartMenuComponent(props){
             <Card.Body>
                 <Card className={` ${styles.ProfileCard} d-flex ${styles.TaskBarPopupCard} m-2`}>
                     <Image className={`img-circle rounded-circle mx-auto ${styles.CardImgTop}`} src={AboutMe}></Image>
-                        <span className={`small text-center`}>{props.greetingMsg} Srinibas</span>
+                        <span className={`small text-center`}>{props.greetingMsg} Arsh</span>
                         <Image className={`${styles.CloseButton} img-circle rounded-circle`} src={PowerOff}></Image>                    
                         <p className={`text-center small`}>
                             This is a static menu currently. More to come soon !!

@@ -21,19 +21,19 @@ import CreditModal from '../components/CreditModal';
             <ContextMenu id="same_unique_identifier" className={`${styles.RightClickMenu} ${styles.BackgroundBlur} ${styles.fontColorWhite} rounded`}>
                 <MenuItem 
                     className={`${styles.RightClickMenuItem} ${styles.MediumFont} border-bottom p-2 rounded lead`}
-                    onClick={()=> window.open('https://github.com/srinibasbiswal/Portfolio_OS_Theme/', '_blank')}
+                    onClick={()=> window.open('https://git.arsh.dev/arshsahzad/Windfolio', '_blank')}
                 >
-                    View Source Code
+                    Source Code
                 </MenuItem>
                 <MenuItem 
                     className={`${styles.RightClickMenuItem} ${styles.MediumFont} border-bottom p-2 rounded lead`}
-                    onClick={()=> window.open('https://github.com/srinibasbiswal/', '_blank')}
+                    onClick={()=> window.open('https://arsh.link/github', '_blank')}
                 >
                     GitHub Profile
                 </MenuItem>
                 <MenuItem 
                     className={`${styles.RightClickMenuItem} ${styles.MediumFont} border-bottom p-2 rounded lead`}
-                    onClick={()=> window.open('mailto: srinibasbiswal02@gmail.com', '_blank')}
+                    onClick={()=> window.open('mailto: hello@arsh.dev', '_blank')}
                 >
                     Mail Me
                 </MenuItem>

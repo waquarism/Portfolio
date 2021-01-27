@@ -66,7 +66,7 @@ function CreditModal(props) {
                 }
                 >
                 <span className={`${styles.FooterText}`} >
-                    Made with <span className={`${styles.fontColorRed}`}>&hearts;</span> by Srinibas Biswal
+                    Made with <span className={`${styles.fontColorRed}`}>&hearts;</span> by Arsh Sahzad
                 </span>
             </OverlayTrigger>
             

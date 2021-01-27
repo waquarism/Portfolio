@@ -26,7 +26,7 @@ function StartMenuContainer(props){
             <Card.Body>
                 <Card className={` ${styles.ProfileCard} d-flex ${styles.BackgroundBlur} m-2`}>
                     <Image className={`img-circle rounded-circle mx-auto ${styles.CardImgTop}`} src={AboutMe}></Image>
-                        <span className={`small text-center`}>{props.greetingMsg} Srinibas</span>
+                        <span className={`small text-center`}>{props.greetingMsg} Arsh</span>
                         <Image className={`${styles.CloseButton} img-circle rounded-circle`} src={PowerOff}></Image>                  
                         <p className={`text-center small`}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
