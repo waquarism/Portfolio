@@ -13,21 +13,21 @@ export const Person = {
 
 export const AboutMeData = {
     intro: 'I\'m Full Stack Web Developer and a Tech Enthusiast who loves everything which involves code.',
-    desc : 'I enjoy taking up complex problems and converting to an usable format. My major domains are Web Development and Python Programming.',
+    desc : 'I enjoy taking up complex problems and converting to an usable format. My major domains are Web Development and Cloud Computing.',
     outro: 'When I\'m not coding, you will find me watching an episode of The Office or exploring for new tech & technologies.'
 };
 
 export const Experiences = [
     {
-        position : 'Web Developer',
+        position : 'Web Developer ~ Part Time',
         organization : 'CodingExpo Technology Private Limited',
         startDate : 'January 2020',
-        endDate : 'Present',
+        endDate : 'October 2020',
         description : 'Responsible for designing, coding and modifying web apps according to client’s needs & fixes bugs in existing projects.',
         organizationPicture : CodingExpo
     },
     {
-        position : 'Web Developer ~ Intern',
+        position : 'Web Developer ~ Internship',
         organization : 'CodingExpo Technology Private Limited',
         startDate : 'October 2019',
         endDate : 'December 2019',
@@ -35,7 +35,7 @@ export const Experiences = [
         organizationPicture : CodingExpo
     },
     {
-        position : 'Web Designer ~ Intern',
+        position : 'Web Designer ~ Internship',
         organization : 'SoftRetic Private Limited',
         startDate : 'February 2019',
         endDate : 'April 2019',
@@ -67,29 +67,29 @@ export const EducationList = [
 
 export const Projects = [
     {
-        projectName : 'MixFusion',
-        description : 'Publishing a python open source library & it is a simple remixing tool for python which can create fusion of two or more songs change its tempo, frequency etc.',
-        technologyStack : ['Python','Django','npm'],
-        link : 'https://arsh.link/mixfusion'
-    },
-    {
         projectName : 'Windfolio',
-        description : 'It is a web application portfolio based on theme of Windows 10. It replicates the feature of the OS and it uses technology such as node.js and react.js.',
+        description : 'It is a portfolio web application based on theme of Windows 10. It replicates the feature of the Windows 10 and it uses technology such as node.js and react.js.',
         technologyStack : ['HTML','CSS','JavaScript','Node.js','React.js'],
         link : 'https://arsh.link/windfolio'
     },
     {
         projectName : 'GitWatcher',
-        description : 'A github profile analyze platform where we can get the information of github user like total public repos, forks. It fetches data using Github API & axios library for requests.',
+        description : 'A github profile analyze tool to get the information of github user like total public repos, forks. It fetches data from github using axios library for http requests.',
         technologyStack : ['React.js','Node.js','Axios','Github API'],
         link : 'https://arsh.link/gitwatcher'
     },
     {
-        projectName : 'CalmSound',
-        description : 'Sound healing therapy uses aspects of nature\'s sounds to improve physical and emotional health. It is based node.js, react.js, and pre-recorded sounds of nature.',
-        technologyStack : ['HTML','CSS','JavaScript','Node.js','Dockerfile'],
-        link : 'https://arsh.link/calmsound'
+        projectName : 'RelaxSound',
+        description : 'Sound healing therapy uses aspects of nature\'s sounds to improve physical and emotional health. It is based next.js and prerecorded sounds of nature.',
+        technologyStack : ['HTML','CSS','JavaScript','Next.js','Dockerfile'],
+        link : 'https://arsh.link/relaxsound'
     }, 
+    {
+        projectName : 'FamilyDB',
+        description : 'An app based on MERN stack. It Fetches data of individual family member like documents, bank details, files by CRUD method.',
+        technologyStack : ['HTML','CSS','JavaScript','Node.js','React.js'],
+        link : 'https://arsh.link/familydb'
+    },
 ]
 
 export const SkillSet = [
@@ -99,13 +99,18 @@ export const SkillSet = [
             'HTML',
             'CSS',
             'JavaScript',
-            'ReactJS',
+            'React.JS',
+            'Vue.JS',
             'Python',
+            'SQL',
+            'YAML',
+            'JSON',
         ]
     },
     {
         name : 'Tools Proficiency',
         values : [
+            'Node.js',
             'Git',
             'Github',
             'Docker',
@@ -120,7 +125,9 @@ export const SkillSet = [
         name : 'Database Proficiency',
         values : [
             'MySQL',
+            'PostgreSQL',
             'MongoDB',
+            'FaunaDB',
             'Firestore',
         ]
     }
